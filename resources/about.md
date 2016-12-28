@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: nosidebar
 title: About
 permalink: /about/
 ---

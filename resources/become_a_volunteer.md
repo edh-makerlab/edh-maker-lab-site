@@ -1,5 +1,5 @@
 ---
-layout: faq
+layout: nosidebar
 title: Become a Volunteer
 permalink: /become_a_volunteer/
 ---

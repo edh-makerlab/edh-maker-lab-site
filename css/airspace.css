@@ -226,7 +226,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/featue-bg.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -375,7 +375,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {

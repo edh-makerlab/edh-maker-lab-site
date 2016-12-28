@@ -1,5 +1,5 @@
 ---
-layout: faq
+layout: nosidebar
 title: FAQs
 permalink: /faqs/
 ---

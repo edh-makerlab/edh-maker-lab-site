@@ -1,5 +1,5 @@
 ---
-layout: faq
+layout: nosidebar
 title: 3D Printing at the Library
 permalink: /getting_started/
 ---
