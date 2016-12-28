@@ -20,11 +20,11 @@ gulp.task('copy:assets', function(done) {
 });
 
 gulp.task('compass', function() {
-  return gulp.src('app/assets/styles/*.scss')
+  return gulp.src('assets/styles/*.scss')
     .pipe(plumber())
     .pipe(compass({
       css: '.tmp/assets/styles',
-      sass: 'app/assets/styles',
+      sass: 'assets/styles',
       style: 'expanded',
       sourcemap: true,
       require: ['sass-css-importer'],
@@ -39,7 +39,7 @@ gulp.task('compass', function() {
 gulp.task('compress:main', function() {
   // main.min.js
   var task = gulp.src([
-      'app/assets/scripts/*.js',
+      'assets/scripts/*.js',
     ])
     .pipe(plumber());
 
@@ -93,19 +93,19 @@ gulp.task('serve', ['build'], function () {
     }
   });
 
-  gulp.watch(['./app/assets/fonts/**/*', './app/assets/images/**/*'], function() {
+  gulp.watch(['./assets/fonts/**/*', './assets/images/**/*'], function() {
     runSequence('jekyll', browserReload);
   });
 
-  gulp.watch('app/assets/styles/**/*.scss', function() {
+  gulp.watch('assets/styles/**/*.scss', function() {
     runSequence('compass');
   });
 
-  gulp.watch(['./app/assets/scripts/**/*.js', '!./app/assets/scripts/vendor/**/*'], function() {
+  gulp.watch(['./assets/scripts/**/*.js', '!./assets/scripts/vendor/**/*'], function() {
     runSequence('compress:main', browserReload);
   });
 
-  gulp.watch(['app/**/*.html', 'app/**/*.md', 'app/**/*.json',  '_config*'], function() {
+  gulp.watch(['**/*.html', '**/*.md', '**/*.json',  '_config*'], function() {
     runSequence('jekyll', browserReload);
   });
 
