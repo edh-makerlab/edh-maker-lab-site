@@ -1,0 +1,48 @@
+{
+  "name": "maker-lab",
+  "version": "1.0.0",
+  "description": "Maker Lab - El Dorado County Library",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
+    "serve": "gulp serve",
+    "build": "gulp",
+    "lint": "semistandard app/assets/scripts/**/*.js",
+    "test": "echo NO TESTS YET",
+    "install": "bundle install --path bundle/cache"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "require-globify",
+      "envify"
+    ]
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "bower": "~1.3.12",
+    "browser-sync": "~2.1.1",
+    "chai": "^1.10.0",
+    "colors": "^1.0.3",
+    "glob": "^4.3.5",
+    "glob-all": "^3.0.1",
+    "gulp": "~3.9.1",
+    "gulp-clean": "~0.3.1",
+    "gulp-compass": "~2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-git": "^1.10.0",
+    "gulp-plumber": "~0.6.6",
+    "gulp-uglify": "~2.0.0",
+    "js-yaml": "^3.2.6",
+    "lodash": "^3.0.1"
+  },
+  "dependencies": {
+    "request": "^2.78.0",
+    "run-sequence": "~1.2.2"
+  }
+}
