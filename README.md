@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/migue48/edh-maker-lab-site.svg?branch=master)](https://travis-ci.org/migue48/edh-maker-lab-site)
 
 ## Development Setup
 
@@ -23,6 +24,6 @@ $ gulp serve
 ### Other Commands
 
 - `gulp`
-- `gulp clean` 
+- `gulp clean`
 - `gulp stage`
 - `gulp prod`
