@@ -95,7 +95,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: 50% 0%;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -359,6 +359,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+  background-position: 50% -200px;
 }
 #global-header:before {
   content: "";
