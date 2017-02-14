@@ -1,7 +1,7 @@
 ---
-layout: nosidebar
 title: 3D Printing at the Library
-permalink: /getting_started/
+permalink: "/getting_started/"
+layout: nosidebar
 ---
 
 # Printing at the EDH Library 3D Print Lab

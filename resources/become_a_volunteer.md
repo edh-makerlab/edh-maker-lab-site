@@ -1,7 +1,7 @@
 ---
-layout: nosidebar
 title: Become a Volunteer
-permalink: /become_a_volunteer/
+permalink: "/become_a_volunteer/"
+layout: nosidebar
 ---
 
 # Interested in volunteering a the 3D Print Lab?

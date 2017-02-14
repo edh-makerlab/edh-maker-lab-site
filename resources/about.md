@@ -1,7 +1,7 @@
 ---
-layout: nosidebar
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: nosidebar
 ---
 
 # [El Dorado Hills Library](http://eldoradolibrary.org)

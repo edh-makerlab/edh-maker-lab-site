@@ -1,7 +1,7 @@
 ---
-layout: nosidebar
 title: FAQs
-permalink: /faqs/
+permalink: "/faqs/"
+layout: nosidebar
 ---
 
 * TOC

@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Blog
-permalink: /blog/
+permalink: "/blog/"
+layout: page
 ---
+
 <!-- Slider Start -->
 <section id="global-header">
   <div class="container">
