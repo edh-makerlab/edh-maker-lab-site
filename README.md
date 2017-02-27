@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/migue48/edh-maker-lab-site.svg?branch=master)](https://travis-ci.org/edh-makerlab/edh-maker-lab-site)
-
+[![Build Status](https://travis-ci.org/edh-makerlab/edh-maker-lab-site.svg?branch=master)](https://travis-ci.org/edh-makerlab/edh-maker-lab-site)
 ## Development Setup
 
 Install the following:
