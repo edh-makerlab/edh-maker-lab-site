@@ -4,7 +4,8 @@
 Install the following:
 
 - Node and npm
-- Ruby and Bundler
+- Ruby
+- Bundler `sudo apt install ruby-bundler`
 - Gulp `npm install -g gulp`
 
 Clone the repository and run the following command to install all required

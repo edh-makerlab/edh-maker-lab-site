@@ -15,7 +15,7 @@ description: 'Write an awesome description for your new site here. You can edit 
 
 '
 url: http://migue48.github.io
-baseurl: "/edh-maker-lab-site"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 twitter_username: jekyllrb
