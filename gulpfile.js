@@ -81,6 +81,7 @@ gulp.task('build', function(done) {
 });
 
 // Default task.
+var environment = 'development';
 gulp.task('default', function(done) {
   runSequence('build', done);
 });
@@ -89,7 +90,7 @@ gulp.task('serve', ['build'], function () {
   browserSync({
     port: 3000,
     server: {
-      baseDir: ['.tmp', '_site']
+      baseDir: ['.tmp/', '_site/']
     }
   });
 
@@ -117,7 +118,7 @@ gulp.task('no-reload', function(done) {
   runSequence('serve', done);
 });
 
-var environment = 'development';
+
 gulp.task('prod', function(done) {
   environment = 'production';
   runSequence('clean', 'build', done);
